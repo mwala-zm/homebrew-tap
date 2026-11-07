@@ -4,28 +4,28 @@
 class Gitenv < Formula
   desc "Terminal UI that keeps you on the right git identity for the repo you're in"
   homepage "https://github.com/mwala-zm/gitenv"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mwala-zm/gitenv/releases/download/v0.3.0/gitenv-aarch64-apple-darwin.tar.gz"
-      sha256 "ebc184e8b19f4ad7239eb81282684ed68139fd94383021b86917687cec006c27"
+      url "https://github.com/mwala-zm/gitenv/releases/download/v0.4.0/gitenv-aarch64-apple-darwin.tar.gz"
+      sha256 "160a074a0f269ee02a7c1b92dcdada54761fe80af15102371827fd0f26bf47d1"
     end
     on_intel do
-      url "https://github.com/mwala-zm/gitenv/releases/download/v0.3.0/gitenv-x86_64-apple-darwin.tar.gz"
-      sha256 "075cc53a6d6b5f7a7697292ece3c5d79156b5dc34811d1690404f9c44c1b3e9a"
+      url "https://github.com/mwala-zm/gitenv/releases/download/v0.4.0/gitenv-x86_64-apple-darwin.tar.gz"
+      sha256 "8ecd15aa6eaa4a2b2440f45a886ad2fe6ab7ee9ae242c5d62e3b779a7d852c98"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mwala-zm/gitenv/releases/download/v0.3.0/gitenv-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "50c61ac2bc9a7a4cbd6d65b77018d6c81f7dc2497cbcaaba6743d607e21a3677"
+      url "https://github.com/mwala-zm/gitenv/releases/download/v0.4.0/gitenv-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "984bd7cda75ff8ea60111d4cf5f3d538223fc398eb5de606102721297511c717"
     end
     on_intel do
-      url "https://github.com/mwala-zm/gitenv/releases/download/v0.3.0/gitenv-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ad9c32a19c90e6bf405295351eeaeed60cbc0df2722bd4b52fcbcc12a73e7961"
+      url "https://github.com/mwala-zm/gitenv/releases/download/v0.4.0/gitenv-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "28c68fd8a0515d1760492e8a94a3e1434491049bffe7658076625afa1eff5451"
     end
   end
 
